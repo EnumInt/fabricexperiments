@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabricexp",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fabric Experiments",
+  "description": "experimental stuff",
   "authors": [
-    "Me!"
+    "AccurateIsaiah"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://isaiah.games",
+    "sources": "https://github.com/accurateisaiah/fabricexperiments"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "games.isaiah.fabricexperiments.MainExp"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    
   ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "1.16.5",
     "java": ">=16"
   },
   "suggests": {
